@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+
+  <title>ELLUS CODE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <h1> ELLUS CODE </h1>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" style="zoom: 200%;" width="16" height="16" fill="currentColor"
+          class="bi bi-justify" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end " id="navbarSupportedContent">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">NÃO TEM CADASTRO?</a>
+          </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <button class="nav-link bonito botao1" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo"> ENTRAR</button>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <main>
+
+    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div class="row g-12 mx-auto my-auto ">
+
+
+
+      <div class="col-6 col-lg-8 col-xl-6 col-xxl-6  mx-auto"
+        style="border-radius: 25px; width: 650px; background-color: black;">
+
+        <form class="needs-validation container ms-3" novalidate>
+
+          <div class="row g-12">
+            <div class="col-12 mt-5 gx-auto ">
+              <h3 style="text-align:center ;"> Cadastre-se agora! &#128521;</h3>
+            </div>
+          </div>
+
+          <br> <br>
+          <div class="row g-6 gx-5 gy-3">
+            <div class="col-sm-5 mx-3">
+              <label for="name" class="form-label">NOME COMPLETO</label>
+              <input type="text" class="form-control box1 botao1" id="Nome" placeholder="Digite seu nome" value=""
+                required>
+              <div class="invalid-feedback">s
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-5 mx-3">
+              <label for="email" class="form-label">EMAIL <span class="text-muted"></span></label>
+              <input type="email" class="form-control box1" id="email" placeholder="login@example.com">
+              <div class="invalid-feedback">
+                Por favor digite um email valido.
+              </div>
+            </div>
+
+
+
+            <div class="col-sm-5 mx-3">
+              <label for="senha" class="form-label">SENHA</label>
+              <input type="password" class="form-control box1" id="senha" placeholder="Digite sua senha" value=""
+                required>
+              <div class="invalid-feedback">
+              </div>
+            </div>
+
+            <div class="col-sm-5 mx-3">
+              <label for="confirmacao" class="form-label">CONFIRMAÇÃO DE SENHA <span class="text-muted"></span></label>
+              <input type="password" class="form-control box1" id="confirmacao"
+                placeholder="Digite sua senha novamente">
+              <div class="invalid-feedback">
+              </div>
+            </div>
+
+
+            <div class="col-sm-5 mx-3">
+              <label for="CPF" class="form-label">CPF</label>
+              <input type="text" class="form-control box1" id="cpf" placeholder="" value="" required>
+              <div class="invalid-feedback">
+              </div>
+            </div>
+
+            <div class="col-sm-5 mx-3">
+              <label for="data nasc" class="form-label">DATA DE NASCIMENTO <span class="text-muted"></span></label>
+              <input type="date" class="form-control box1" id="data nasc" placeholder="">
+              <div class="invalid-feedback">
+              </div>
+            </div>
+
+
+
+            <div class="col-sm-5 mx-3">
+              <label for="orientacao" class="form-label">ORIENTAÇÃO SEXUAL </label>
+              <input type="text" class="form-control box1 " id="orientacao" placeholder="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-5 mx-3">
+              <label for="identidade" class="form-label">IDENTIDADE DE GÊNERO </label>
+              <input type="text" class="form-control box1" id="identidade" placeholder="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+
+            <div class="col-sm-5 mx-3">
+              <label for="cep" class="form-label">CEP</label>
+              <input type="text" class="form-control box1" id="cep" placeholder="Digite seu cep">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+            <div class="col-sm-5 mx-3">
+              <label for="logradouro" class="form-label">LOGRADOURO</label>
+              <input type="text" class="form-control box1" id="logradouro" placeholder="Ex Rua das flores">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+
+
+            <div class="col-sm-5 mx-3">
+              <label for="bairro" class="form-label">BAIRRO</label>
+              <input type="text" class="form-control  box1" id="bairro" placeholder="Digite seu bairro">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+
+            <div class="col-sm-2 gx-4   mx-4">
+              <label for="numero" class="form-label">NÚMERO</label>
+              <input type="number" class="form-control  box1" id="numero" placeholder="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-2 mx-3">
+              <label for="estado" class="form-label">ESTADO</label>
+              <input type="text" class="form-control  box1" id="estao" placeholder="">
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+
+
+            <div class="col-sm-5 mx-3">
+              <label for=telefone class="form-label">TELEFONE</label>
+              <input type="text" class="form-control  box1" id="telefone" placeholder="" value="" required>
+              <div class="invalid-feedback">
+              </div>
+            </div>
+
+            <div class="col-sm-5 mx-3">
+              <label for="celular" class="form-label">CELULAR<span class="text-muted"></span></label>
+              <input type="text" class="form-control  box1" id="celular" placeholder="">
+              <div class="invalid-feedback">
+              </div>
+            </div>
+
+            <div class="row gy-3">
+              <div class="col-12 ps-4  offset-md-4" style="padding-top: 10px; padding-bottom: 20px;">
+                <button class=" btn btn-primary"
+                  style="  border-radius: 25px; background-color:#d75413 ; font-size: 1em; "
+                  type="submit">CADASTRAR</button>
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+
+
+      </div>
+
+      <div class="col-6 d-flex align-items-end mb-5 ">
+        <img class="imagem" style="zoom: 80%;" src="imagens/cadastro.JPG" alt="Usuarios aprendendo">
+      </div>
+
+    </div>
+
+
+
+  </main>
+
+
+  <br> <br>
+  <br> <br>
+  <br> <br>
+
+
+  <div class="container-fluid">
+    <footer class="text-center text-lg-start text-white">
+      <div class="">
+        <section class="">
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold" style="font-size: 30px;">
+                ELLUS CODE
+              </h6>
+              <p>
+                Ellus code um site para aprender e a se desenvolver cada vez mais para o seu futuro!
+              </p>
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Links úteis</h6>
+              <p>
+                <a class="text-white">Termos de Uso</a>
+              </p>
+              <p>
+                <a class="text-white">Política de Privacidade</a>
+              </p>
+
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Imagens retiradas de
+              </h6>
+              <p>
+                <a class="text-white" href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+              </p>
+              <p>
+                <a class="text-white" href="https://br.freepik.com/" target="_blank">Freepik</a>
+              </p>
+              <p>
+                <a class="text-white" href="https://www.pexels.com/pt-br/" target="_blank">Pexels</a>
+              </p>
+
+            </div>
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                  <path
+                    d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                </svg>
+
+                São Paulo, BR, 1000, BR
+              </p>
+              <p class="carta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                </svg> contato@elluscode.com</p>
+              <p>&#9743; Tel: (11) 3888-3333</p>
+            </div>
+          </div>
+        </section>
+
+        <hr class="my-3">
+
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                © 2021 Ellus Code, All Rights Reserved
+              </div>
+            </div>
+
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <a class="btn  btn-floating m-1  fa fa-facebook" class="text-white" role="button"></i></a>
+
+              <a class="btn  btn-floating m-1  fa fa-twitter" class="text-white" role="button">
+              </a>
+
+              <a class="btn  btn-floating m-1  fa fa-linkedin" class="text-white" role="button">
+              </a>
+
+              <a class="btn  btn-floating m-1 fa fa-instagram" class="text-white" role="button"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content"
+        style="border-radius: 24px; background-color: rgba(0, 0, 0,01); height:380px; width:500px ; margin-top: 150px; color: white;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entrar</h5>
+          <button type="button" style="border-radius: 24px; width: 40px; background-color: #d75413;"
+            class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">X</button>
+        </div>
+        <div class="modal-body ">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label" style="font-weight: bold;">E-MAIL:</label>
+              <input type="text" class="form-control  box2" id="recipient-name">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label" style="font-weight: bold;   ">SENHA:</label>
+              <input type="password" class="form-control box2" id="recipient-name">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" style="border-radius: 24px; background-color: #d75413;"
+            data-bs-dismiss="modal">Esqueci minha senha</button> -->
+          <a href="usuario.html">
+            <button type="button" class="btn btn-primary"
+              style="border-radius: 24px;background-color: #d75413;">Login</button> </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

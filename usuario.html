@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ELLUS CODE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <h1> ELLUS CODE </h1>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" style="zoom: 200%;" width="16" height="16" fill="currentColor"
+                    class="bi bi-justify" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-end " id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">CURSOS</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">SAIR</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <br> <br> <br>
+
+    <div class="container ">
+        <div class="d-flex align-items-start ">
+            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active botao " id="v-pills-home-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home" type="button" role="tab"
+                    style="color: #dee6fd; background-color: #d75413; " aria-controls="v-pills-home"
+                    aria-selected="true">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+
+                    USUÁRIO
+
+
+                </button>
+                <br>
+                <button class="nav-link  botao" id="v-pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                    style="color: #dee6fd;background-color: #d75413; " aria-controls="v-pills-profile"
+                    aria-selected="false"> &#128366; HISTÓRICO</button>
+                <br>
+                <button class="nav-link   botao" id="v-pills-messages-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages" type="button" role="tab"
+                    style="color: #dee6fd;background-color: #d75413; " aria-controls="v-pills-messages"
+                    aria-selected="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-bell" viewBox="0 0 16 16">
+                        <path
+                            d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                    </svg>
+
+                    MENSAGENS</button>
+                <br>
+                <button class="nav-link   botao" id="v-pills-settings-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings" type="button" role="tab"
+                    style="color: #dee6fd;background-color: #d75413; " aria-controls="v-pills-settings"
+                    aria-selected="false">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-gear" viewBox="0 0 16 16">
+                        <path
+                            d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                        <path
+                            d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                    </svg>
+
+                    CONFIGURAÇÕES</button>
+            </div>
+            <div class="tab-content bg-dark " style="border-radius: 24px; width: 750px;" id="v-pills-tabContent row">
+                <div class="tab-pane fade show active  col py-3 px-md-5 bg-dark mb-3" style="border-radius: 24px;"
+                    id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <label style="font-size: 20px;"> Informações do usuário</label>
+                    <hr> <br>
+                    <div class="row ">
+
+
+
+                        <div class="
+                        col-12 col-lg-5 col-xl-5 col-xxl-6 mt-4">
+
+
+                            <span class="row  ">
+                                <span class="col-auto ">
+                                    <label for="">Nome:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">Admin</label>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="col-12 col-lg-5 col-xl-5 col-xxl-6 mt-4">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">E-mail:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">usuario@email.com.br</label>
+                                </span>
+                            </span>
+
+                        </div>
+
+                        <div class="col-6 mt-4  col-6 col-lg-6 col-xl-6 col-xxl-6">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <label for="">Cpf:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">000.000.000-00</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-auto col-6 mt-4 col-lg-6 col-xl-6 col-xxl-6 ">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="" style="word-wrap: none;">Data/nascimento:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">00/00/00</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+                        <div class="col-6  mt-4">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <label for="">Orientação:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">*********</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-auto  col-6 mt-4">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Identidade/Gênero:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">*********</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+                        <div class="col-6 mt-4 ">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <label for="">Orientação:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">*********</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-auto  col-6 mt-4">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Identidade/Gênero:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">*********</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+                        <div class="col-6  mt-4">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <label for="">Cep:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">000.00-00</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-auto col-6 mt-4 ">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Logradouro:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">Rua das Flores</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+                        <div class="col-6  mt-4">
+
+                            <span class="row">
+                                <span class="col-auto  ">
+                                    <label for="">Cep:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">000.00-00</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-auto col-6 mt-4 ">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Logradouro:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">Rua das Flores</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-6 mt-4 ">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <label for="">Bairro:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">Av. Fernando de andrade</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+
+                        <div class="col-auto  mt-4 ">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Número:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">222</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+                        <div class="col-auto  mt-4 ">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Estado:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">SP</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-6  mt-4">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <label for="">Telefone:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">0000-0000</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-auto  col-6 mt-4">
+                            <span class="row">
+                                <span class="col-auto">
+                                    <label for="">Celular:</label>
+                                </span>
+                                <span class="col-auto">
+                                    <label for="">00000-0000</label>
+                                </span>
+                            </span>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="tab-pane fade   col py-3 px-md-5 bg-dark mb-3 " style="border-radius: 24px; width: 750px;"
+                    id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                    <label style="font-size: 20px;"> Seus cursos </label>
+                    <hr> <br>
+                    <div class="row ">
+
+
+
+                        <div class="col-12 ">
+
+
+
+                            <div class="col-auto">
+                                <div class="alert alert-primary" style="border-radius: 24px;" role="alert">
+                                    <label class="col-6"> HTML </label>
+                                    <label class="col-5"> 29% Concluido </label>
+
+
+
+                                </div>
+                                <div class="alert alert-secondary" style="border-radius:24px;" role="alert">
+                                    <label class="col-6"> JAVA </label>
+                                    <label class="col-5"> 50% Concluido </label>
+                                </div>
+                                <div class="alert alert-success" style="border-radius: 24px;" role="alert">
+                                    <label class="col-6"> PHP </label>
+                                    <label class="col-5"> 80% Concluido </label>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+                <div class="tab-pane fade  col py-3 px-md-5 bg-dark mb-3" style="border-radius: 24px; width: 750px;"
+                    id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+
+                    <label style="font-size: 20px;"> Mensagens</label>
+                    <hr> <br>
+
+                    <div class="row">
+
+                        <div class="col-auto">
+                            <div class="alert alert-primary" style="border-radius: 24px;" role="alert">
+                                Volte a fazer os cursos!
+                            </div>
+                            <div class="alert alert-secondary" style="border-radius:24px;" role="alert">
+                                Já faz um tempo que não te vemos por aqui!
+                            </div>
+                            <div class="alert alert-success" style="border-radius: 24px;" role="alert">
+                                Você consegue, apenas continue!
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="tab-pane fade   col py-3 px-md-5 bg-dark mb-3" style="border-radius: 24px; width: 750px;"
+                    id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+
+                    <div class="row justify-content-between ">
+
+                        <div class="col-sm-12 mt-4">
+                            <label for="">
+                                Gostaria de receber notificações de novos cursos ?
+
+                            </label>
+                        </div>
+
+
+                        <div class="col-12  mt-4">
+
+                            <span class="row">
+                                <span class="col-auto ">
+                                    <input class="" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="" for="flexCheckDefault">
+                                        Sim, gostaria!
+                                    </label>
+                                </span>
+
+                            </span>
+                        </div>
+
+
+
+                        <span class="row">
+                            <span class="col-auto ">
+                                <input class="" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="" for="flexCheckDefault">
+                                    Não,obrigado!
+                                </label>
+                            </span>
+
+                        </span>
+
+                        <div class="col-3  mt-5">
+
+                            <span class="row">
+                                <label class=" col-auto" for="">
+
+                                    <button class="nav-link bonito botao1" style="font-weight: normal; font-size: 16px;"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                        data-bs-whatever="@mdo">Alterar dados</button>
+                                </label>
+                            </span>
+
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-4  mt-5">
+
+                            <span class="row">
+                                <label class=" col-auto" for="">
+                                    Mudar cor de fundo
+                                </label>
+
+
+                            </span>
+
+
+                            <span class="row pt-2">
+                                <label class=" col-auto" for="">
+                                    <button class="btn3" type="button" onclick="corazul()"></button>
+
+
+
+                                </label>
+
+
+                                <label class=" col-auto" for="">
+                                    <button class="btn4" type="button" onclick="corroxo()"></button>
+
+
+
+                                </label>
+
+
+                                <label class=" col-auto" for="">
+                                    <button class="btn2" type="button" onclick="corlaranja()"></button>
+
+
+
+                                </label>
+
+
+                            </span>
+                        </div>
+
+
+
+                        <div class="col-4  mt-5">
+
+                            <span class="row">
+                                <label class=" col-auto" for="">
+
+
+                                    <button class="nav-link bonito botao1" style="font-weight: normal; font-size: 16px;"
+                                        data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-bs-whatever="@mdo">
+                                        Excluir conta</button>
+
+                                </label>
+                            </span>
+
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="container-fluid">
+        <footer class="text-center text-lg-start text-white">
+          <div class="">
+            <section class="">
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold" style="font-size: 30px;">
+                    ELLUS CODE
+                  </h6>
+                  <p>
+                    Ellus code um site para aprender e a se desenvolver cada vez mais para o seu futuro!
+                  </p>
+                </div>
+    
+                <hr class="w-100 clearfix d-md-none" />
+    
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Links úteis</h6>
+                  <p>
+                    <a class="text-white">Termos de Uso</a>
+                  </p>
+                  <p>
+                    <a class="text-white">Política de Privacidade</a>
+                  </p>
+    
+                </div>
+    
+                <hr class="w-100 clearfix d-md-none" />
+    
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Imagens retiradas de
+                  </h6>
+                  <p>
+                    <a class="text-white" href="https://www.flaticon.com/" target="_blank">Flaticon</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="https://br.freepik.com/" target="_blank">Freepik</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="https://www.pexels.com/pt-br/" target="_blank">Pexels</a>
+                  </p>
+    
+                </div>
+    
+                <hr class="w-100 clearfix d-md-none" />
+    
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contato</h6>
+                  <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mailbox"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z" />
+                      <path
+                        d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z" />
+                    </svg>
+    
+                    São Paulo, BR, 1000, BR
+                  </p>
+                  <p class="carta"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path
+                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                    </svg> contato@elluscode.com</p>
+                  <p>&#9743; Tel: (11) 3888-3333</p>
+                </div>
+              </div>
+            </section>
+    
+            <hr class="my-3">
+    
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <!-- Copyright -->
+                  <div class="p-3">
+                    © 2021 Ellus Code, All Rights Reserved
+                  </div>
+                </div>
+    
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                  <a class="btn  btn-floating m-1  fa fa-facebook" class="text-white" role="button"></i></a>
+    
+                  <a class="btn  btn-floating m-1  fa fa-twitter" class="text-white" role="button">
+                  </a>
+    
+                  <a class="btn  btn-floating m-1  fa fa-linkedin" class="text-white" role="button">
+                  </a>
+    
+                  <a class="btn  btn-floating m-1 fa fa-instagram" class="text-white" role="button"></a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </footer>
+      </div>
+
+
+
+
+
+
+
+
+    <!-- 
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content"  style="border-radius: 24px; background-color: rgba(0, 0, 0,1); margin-top: 150px; color: white;">
+              <h5 class="modal-title" id="staticBackdropLabel"> </h5>
+              
+              <button type="button" style="border-radius: 24px; width: 40px; background-color: #d75413;" class="btn btn-primary"
+              data-bs-dismiss="modal" aria-label="Close">X</button>          
+            <div class="modal-body">
+              Gostaria de excluir sua conta? 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" style="background-color: #d75413;" data-bs-dismiss="modal">SIM</button>
+              <button type="button" class="btn btn-primary " style="background-color: #d75413;"> NÃO</button>
+            </div>
+          </div>
+        </div> -->
+
+
+
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+            <div class="modal-content"
+                style="border-radius: 24px; background-color: rgba(0, 0, 0,1); margin-top: 150px; color: white;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Entrar</h5>
+                    <button type="button" style="border-radius: 24px; background-color: #d75413;"
+                        class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="modal-body ">
+                    <form>
+                        <div class="mb-3">
+                            <div class="row g-6 justify-content-between">
+                                <div class="col-sm-5">
+                                    <label for="name" class="form-label">NOME COMPLETO</label>
+                                    <input type="text" class="form-control box1" id="Nome" placeholder="Digite seu nome"
+                                        value="" required>
+                                    <div class="invalid-feedback">
+                                        Valid first name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-5">
+                                    <label for="email" class="form-label">EMAIL <span class="text-muted"></span></label>
+                                    <input type="email" class="form-control box1" id="email"
+                                        placeholder="login@example.com">
+                                    <div class="invalid-feedback">
+                                        Por favor digite um email valido.
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-sm-5">
+                                    <label for="senha" class="form-label">NOVA SENHA</label>
+                                    <input type="password" class="form-control box1" id="senha"
+                                        placeholder="Digite sua senha" value="" required>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-5">
+                                    <label for="confirmacao" class="form-label">CONFIRMAÇÃO DE SENHA <span
+                                            class="text-muted"></span></label>
+                                    <input type="password" class="form-control box1" id="confirmacao"
+                                        placeholder="Digite sua senha novamente">
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-sm-5">
+                                    <label for="orientacao" class="form-label">ORIENTAÇÃO SEXUAL </label>
+                                    <input type="text" class="form-control box1 " id="orientacao" placeholder="">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-5">
+                                    <label for="identidade" class="form-label">IDENTIDADE DE GÊNERO </label>
+                                    <input type="text" class="form-control box1" id="identidade" placeholder="">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-5">
+                                    <label for="cep" class="form-label">CEP</label>
+                                    <input type="text" class="form-control box1" id="cep" placeholder="Digite seu cep">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <label for="logradouro" class="form-label">LOGRADOURO</label>
+                                    <input type="text" class="form-control box1" id="logradouro"
+                                        placeholder="Ex Rua das flores">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="bairro" class="form-label">BAIRRO</label>
+                                    <input type="text" class="form-control  box1" id="bairro"
+                                        placeholder="Digite seu bairro">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-2">
+                                    <label for="numero" class="form-label">NÚMERO</label>
+                                    <input type="number" class="form-control  box1" id="numero" placeholder="">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-2">
+                                    <label for="estado" class="form-label">ESTADO</label>
+                                    <input type="text" class="form-control  box1" id="estao" placeholder="">
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-5">
+                                    <label for=telefone class="form-label">TELEFONE</label>
+                                    <input type="text" class="form-control  box1" id="telefone" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-5">
+                                    <label for="celular" class="form-label">CELULAR<span
+                                            class="text-muted"></span></label>
+                                    <input type="text" class="form-control  box1" id="celular" placeholder="">
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
+
+                    </form>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3 mt-4  ">
+                        <button type="button" class="btn btn-primary"
+                            style="border-radius: 24px;background-color: #d75413;">SALVAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+
+
+
+
+
+</body>
+
+</html>

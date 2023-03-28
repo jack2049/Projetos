@@ -1,0 +1,289 @@
+body {
+background-color:#252f40;
+color: #dee6fd ;
+width: 100%;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+float: right !important;
+height: 100%;
+}
+
+li {
+float: left !important;
+font-size: 1.2em !important;
+font-weight: bold !important;
+}
+
+li a {
+display: block;
+text-align: center;
+padding: 30px 0px;
+text-decoration: none;
+color: #dee6fd !important;
+white-space: nowrap;
+}
+
+.botao focus{
+outline: none !important;
+ }
+ 
+ nav{
+width: 100%;
+background-color:#252f40;
+position: sticky !important ; 
+top: 0;
+z-index: 2;
+box-shadow: -2px 0px 10px 6px #000;
+}
+
+.bonito{
+border-radius: 7px;
+background-color: rgba(94,77,133,0);
+font-size: 1em;
+font-weight:bold;
+color: #dee6fd;
+border-style: none;
+padding: 0;
+margin: 0;
+}
+
+.fa {
+font-size: 22px !important;
+width: 50px;
+height:40px;
+padding-top:9px ;
+text-decoration: none;
+color: white;
+border-radius:30%;
+}
+
+.fa-facebook:hover {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter:hover {
+background: #55ACEE;
+color: white;
+}
+
+.fa-linkedin:hover {
+background: #007bb5;
+color: white;
+}
+
+.fa-instagram:hover {
+background: #9100CC;
+color: white;
+}
+
+.fa-whatsapp:hover {
+background: #36BD00;
+color: white;
+}
+
+footer {
+color: #dee6fd !important;
+
+height: 200px;
+}
+
+
+button.btn-close {
+
+  border: 0 none !important;
+  color: #fff;
+}
+
+.modal-header .btn-close {
+  color: #fff;
+}
+
+.conteudo {
+  width: 100%;
+}
+
+.bola{
+  color: #fff;
+  background-color: rgba(64,66,226,0);
+}
+
+
+.cardInterno{
+  width: 180px; 
+  height: 200PX; 
+  justify-self: center; 
+  text-align: justify;
+  justify-content: center; 
+  border: none; 
+  color: #fff; 
+  background-color: rgba(64,66,226,0);
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+
+.botao{
+width:200px !important;
+height:70px;
+border-radius: 15px 50px !important;
+
+}
+
+
+
+.botao1:hover {
+
+  color: #dee6fd !important;
+
+
+}
+
+.botao1:focus{
+
+overflow: unset !important;
+
+
+}
+
+.botao1:active{
+
+
+  color: #dee6fd !important;
+
+
+}
+
+
+
+h2{
+
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 7px 4px 4px #000000;
+  
+  
+  }
+
+
+  .box1 {
+    border: none !important; 
+    background-color: rgba(0, 0, 0,0) !important;
+    outline: none !important;
+    border-bottom-style: solid !important;
+    color: #dee6fd !important;
+    
+   }
+   
+   .box2{
+   
+     
+   
+     border: none; 
+     outline: none;
+     border-bottom-style: solid;
+     color: #fff;
+   
+     background-color: rgba(0,0, 0, 0 )!important;
+   
+   
+   }
+
+   .conteudo2{
+
+    background-color: rgba(0, 0, 0,1);
+     height: 700px;
+     width: 600px;
+     border-radius:24px;
+     color: #dee6fd !important;
+     margin-top:-850px ;
+     margin-right:700px !important;
+      
+    }
+
+    input :focus{
+
+
+      outline-style: none !important;
+      outline-width: 0;
+      overflow-wrap: unset;
+
+    overflow: hidden;
+    outline: unset;
+
+
+    }
+
+
+
+    .ocultar {
+
+      display: none;
+
+
+    }
+
+
+    .btn2{
+    
+      border-radius: 100px !important;
+      height: 40px;
+      width: 40px;
+      background-color: #d75413;
+      border:none;
+
+
+
+    }
+
+    .btn3{
+    
+      border-radius: 100px !important;
+      height: 40px;
+      width: 40px;
+      background-color: #4169e1;
+      border:none;
+
+
+
+    }
+
+
+
+    .btn4{
+
+      
+      border-radius: 100px !important;
+      height: 40px;
+      width: 40px;
+      background-color: #7d5b8c;
+      border:none;
+
+
+    }
+    
+
+
+
+
+
+    @media screen and (max-width: 800px) {
+
+      .imagem {display: none;}
+
+
+        
+        }
+
+
+    
+
+
+  
+
+
